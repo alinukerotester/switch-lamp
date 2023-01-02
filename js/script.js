@@ -7,9 +7,12 @@ lamp.addEventListener('click', () => {
 
         light.classList.remove('on');
         light.classList.add('off');
+
     } else {
 
         light.classList.remove('off');
         light.classList.add('on');
+
     }
+
 });
