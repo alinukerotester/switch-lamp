@@ -2,3 +2,41 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    overflow: hidden;
+    background: #fdbf20;
+}
+
+.Lamp-item {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.Lamp-top {
+    top: 0;
+    width: 10px;
+    height: 100px;
+    background: #2d2d2d;
+    pointer-events: none;
+}
+
+.Lamp-middle {
+    cursor: pointer;
+    width: 50px;
+    height: 30px;
+    background: #2d2d2d;
+    border-radius: 50px 50px 0 0;
+    top: 99px;
+}
+
+.Lamp-bottom {
+    cursor: pointer;
+    width: 150px;
+    height: 80px;
+    background: #2d2d2d;
+    border-radius: 100px 100px 0 0;
+    top: 130px;
+}
